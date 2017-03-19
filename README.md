@@ -23,7 +23,9 @@ Self-Driving Car Engineer Nanodegree Program
 3. Compile: `cmake .. && make`
 4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find
    some sample inputs in 'data/'.
-    - eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
+    - e.g. `./ExtendedKF ../data/measurements-1.txt output.txt`
+5. Check it: `./CalcRMSE path/to/estimations.txt path/to/ground_truth.txt`.
+    - e.g. `./CalcRMSE output.txt ../data/ground_truth-1.txt`
 
 ## Editor Settings
 
