@@ -21,12 +21,10 @@ def submit(args):
     'src/tools.h'
   ]
 
-  if len(args.files) == 0:
+  if len(local_args.filenames) == 0:
     filenames = default_filenames
   else:
-    filenames = args.filenames
-
-  print(filenames)
+    filenames = local_args.filenames
 
   udacity.submit(nanodegree, projects[0], filenames, 
                  environment = args.environment,
